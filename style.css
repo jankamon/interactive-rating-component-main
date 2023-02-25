@@ -15,7 +15,7 @@ main {
     margin-top: 150px;
 }
 
-#card {
+.card {
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
     width: 350px;
@@ -24,10 +24,20 @@ main {
     padding: 20px;
 }
 
+#thank-state {
+    text-align: center;
+}
+
 h1 {
     color: hsl(0, 0%, 100%);
 }
 
+.circle {
+    padding: 10px;
+    border-radius: 50%;
+    background-color:  hsla(216, 12%, 54%, 0.1);
+}
 
-.attribution { font-size: 11px; text-align: center; }
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10px; }
 .attribution a { color: hsl(228, 45%, 44%); }
