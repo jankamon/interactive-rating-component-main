@@ -23,25 +23,21 @@
     <p>Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
     
-    <input type="radio" id="num1" name="num" value="1">
-    <label for="num1">1</label>
-    <input type="radio" id="num2" name="num" value="2">
-    <label for="num2">2</label>
-    <input type="radio" id="num3" name="num" value="3">
-    <label for="num3">3</label>
-    <input type="radio" id="num4" name="num" value="4">
-    <label for="num4">4</label>
-    <input type="radio" id="num5" name="num" value="5">
-    <label for="num5">5</label>
-    <br />
-    <input type="submit" value="Submit">
+    <ul>
+      <li><button class="radio-button circle">1</button></li>
+      <li><button class="radio-button circle">2</button></li>
+      <li><button class="radio-button circle">3</button></li>
+      <li><button class="radio-button circle">4</button></li>
+      <li><button class="radio-button circle">5</button></li>
+    </ul>
+    <button id="submit-button" type="submit">Submit</button>
 
     <!-- Rating state end -->
   </div>
   <!-- Thank you state start -->
   <div id="thank-state" class="card"> 
     <img src="./images/illustration-thank-you.svg" alt="" />
-    <p>You selected <!-- Add rating here --> out of 5</p>
+    <p id="result">You selected <!-- Add rating here --> out of 5</p>
 
     <h1>Thank you!</h1>
 

@@ -21,7 +21,9 @@ main {
     width: 350px;
     height: 350px;
     text-align: left;
-    padding: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #thank-state {
@@ -32,12 +34,67 @@ h1 {
     color: hsl(0, 0%, 100%);
 }
 
+ul {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+
 .circle {
     padding: 10px;
     border-radius: 50%;
     background-color:  hsla(216, 12%, 54%, 0.1);
+    border: none;
 }
 
+.radio-button {
+    width: 3rem;
+    height: 3rem;
+    color:hsl(217, 12%, 63%);
+    font-weight: 700;
+}
+
+.radio-button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.radio-button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+#submit-button {
+    border-radius: 2rem;
+    width: 100%;
+    height: 2.75rem;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    border: none;
+    letter-spacing: 0.1rem;
+    margin-top: 2%;
+}
+
+#submit-button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#result {
+    color:hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, 0.1);
+    font-weight: 400;
+    border-radius: 1rem;
+    padding: 1% 2%;
+    width: 45%;
+    margin: 7% auto;
+}
 
 .attribution { font-size: 11px; text-align: center; margin-top: 10px; }
 .attribution a { color: hsl(228, 45%, 44%); }
