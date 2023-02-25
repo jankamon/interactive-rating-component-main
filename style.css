@@ -26,6 +26,14 @@ main {
     padding-right: 25px;
 }
 
+@media only screen and (max-width: 375px) {
+    .card {
+        width: 85%;
+        height: 85%;
+        padding-bottom: 25px;
+    }
+  }
+
 #thank-state {
     text-align: center;
     display: none;
