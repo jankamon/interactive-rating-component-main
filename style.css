@@ -28,6 +28,7 @@ main {
 
 #thank-state {
     text-align: center;
+    display: none;
 }
 
 h1 {
