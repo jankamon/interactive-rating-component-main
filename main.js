@@ -4,16 +4,20 @@ const thankState = document.getElementById('thank-state');
 const ratingBtn = document.getElementById('rating-ul');
 const selectedRating = document.getElementById('selected-rating');
 
+let rated = false;
 
 const submit = () => {
-    ratingState.style.display = 'none';
-    thankState.style.display = 'block';
-    console.log('Submit function is working');
+    if(rated) {
+        ratingState.style.display = 'none';
+        thankState.style.display = 'block';
+        console.log('Submit function is working');
+    }
 }
 
 const savingRating = (event) => {
     selectedRating.innerHTML = event.target.innerHTML;
-    console.log('Rating saving function is working: ' + selectedRating);
+    rated = true;
+    console.log('Rating saving function is working. Chosen: ' + event.target.innerHTML);
 }
 
 
